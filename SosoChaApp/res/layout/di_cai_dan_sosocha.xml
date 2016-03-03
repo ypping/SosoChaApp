@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/shou_ye_radio_group"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#cccccc"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:padding="5dp" >
+
+    <RadioButton
+        android:id="@+id/radio_button11"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableTop="@drawable/shouye"
+        android:gravity="center"
+        android:text="@string/shouye_soso"
+        android:textSize="11.5sp" />
+
+    <RadioButton
+        android:id="@+id/radio_button12"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableTop="@drawable/guanzhu"
+        android:gravity="center"
+        android:text="@string/guanzhu_soso"
+        android:textSize="12sp" />
+
+    <RadioButton
+        android:id="@+id/radio_button13"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableTop="@drawable/qiangdiao"
+        android:gravity="center"
+        android:text="@string/qiangdiao_soso"
+        android:textSize="12sp" />
+
+    <RadioButton
+        android:id="@+id/radio_button14"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableTop="@drawable/fujing"
+        android:gravity="center"
+        android:text="@string/fujing_soso"
+        android:textSize="12sp" />
+
+    <RadioButton
+        android:id="@+id/radio_button15"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:button="@null"
+        android:drawableTop="@drawable/wo"
+        android:gravity="center"
+        android:text="@string/wo_soso"
+        android:textSize="12sp" />
+
+</RadioGroup>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/soso_top_bei_jing"
+            android:layout_width="fill_parent"
+            android:layout_height="210dp"
+            android:src="@drawable/ding_bu_tu" />
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_below="@id/soso_top_bei_jing"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/tou_xiang" />
+
+        <ImageView
+            android:layout_width="164dp"
+            android:layout_height="48.8dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="32dp"
+            android:src="@drawable/logo" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shu_ru_kuang"
+            android:hint="请输入用户名" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密\t\t码"
+            android:textSize="16sp" />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shu_ru_kuang"
+            android:hint="请输入密码" />
+    </LinearLayout>
+
+</LinearLayout>
